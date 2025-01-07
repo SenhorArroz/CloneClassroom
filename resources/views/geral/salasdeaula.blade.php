@@ -122,8 +122,8 @@
     @else
         <div>
             <div class="p-2">
-                <div class="card border-success" style="height: 92vh">
-                    <div class="card-header bg-secondary-subtle text-center border-danger ">
+                <div class="card border-primary-subtle border-3" style="height: 92vh">
+                    <div class="card-header bg-secondary-subtle text-center border-primary border-3">
                         <h4>Suas salas de aula, {{ auth()->user()->firstName }}!</h4>
                     </div>
                     <div class="card-body text-center d-flex flex-column">
